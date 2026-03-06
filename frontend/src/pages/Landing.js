@@ -191,9 +191,9 @@ function Landing() {
               <h4 className="text-white font-black uppercase tracking-widest text-xs mb-8">Product</h4>
               <ul className="space-y-4 text-gray-400 font-bold text-sm">
                 <li><Link to="/assessment" className="hover:text-white transition-colors">Career Assessment</Link></li>
-                <li><a href="#" className="hover:text-white transition-colors">College Library</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Expert Counseling</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Price Plans</a></li>
+                <li><button className="hover:text-white transition-colors bg-transparent border-none cursor-pointer text-inherit font-inherit p-0">College Library</button></li>
+                <li><button className="hover:text-white transition-colors bg-transparent border-none cursor-pointer text-inherit font-inherit p-0">Expert Counseling</button></li>
+                <li><button className="hover:text-white transition-colors bg-transparent border-none cursor-pointer text-inherit font-inherit p-0">Price Plans</button></li>
               </ul>
             </div>
             <div>
@@ -208,8 +208,8 @@ function Landing() {
           <div className="border-t border-white/5 pt-10 flex flex-col md:row items-center justify-between gap-6">
             <p className="text-gray-500 font-bold text-xs">© 2026 FutureReady AI. All Rights Reserved.</p>
             <div className="flex gap-8 text-gray-500 font-bold text-xs uppercase tracking-widest">
-              <a href="#" className="hover:text-white">Privacy Policy</a>
-              <a href="#" className="hover:text-white">Terms of Use</a>
+              <button className="hover:text-white bg-transparent border-none cursor-pointer text-inherit font-inherit p-0">Privacy Policy</button>
+              <button className="hover:text-white bg-transparent border-none cursor-pointer text-inherit font-inherit p-0">Terms of Use</button>
             </div>
           </div>
         </div>
