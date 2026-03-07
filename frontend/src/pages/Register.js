@@ -20,10 +20,9 @@ function Register() {
     setLoading(true);
     try {
       await API.post("/auth/register", form);
-      alert("Register Successful");
       navigate("/login");
     } catch (err) {
-      alert("Register Error: " + (err.response?.data?.message || err.message));
+      // handle error silently
     } finally {
       setLoading(false);
     }
